@@ -13,7 +13,7 @@ const experienceSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  style: {
+  styleString: {
     type: String,
     required: true,
   },
