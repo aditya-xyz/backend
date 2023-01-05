@@ -11,6 +11,7 @@ mongoose.set("strictQuery", false)
 const app = express()
 app.use(express.json())
 app.use(cors())
+
 //routes
 app.use("/project", projectRoutes)
 app.use("/experience", experienceRoutes)

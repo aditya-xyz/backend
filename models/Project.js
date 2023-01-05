@@ -13,7 +13,7 @@ const projectSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  gitHubUrl: {
+  githubUrl: {
     type: String,
     required: true,
   },
