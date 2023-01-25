@@ -18,7 +18,6 @@ app.use("/experience", experienceRoutes)
 
 //mongoose
 const PORT = process.env.PORT || 6001
-
 mongoose
   .connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
